@@ -1,6 +1,6 @@
-# Family Finance Tracker Frontend
+# family-finance-frontend
 
-Web frontend for Family Finance Tracker. This app provides the full user interface for authentication, expenses, loans, investments, insurance, overview, banks, analytics, and settings. It is designed to be deployed independently and consume the shared backend API.
+Web frontend for Family Finance Tracker. Built with React and Vite, it delivers auth, expenses, loans, investments, insurance, banks, overview, analytics, and settings flows. Designed for independent deployment while consuming the shared backend API.
 
 ## What This Repo Owns
 
@@ -25,25 +25,25 @@ Web frontend for Family Finance Tracker. This app provides the full user interfa
 ## Main Folders
 
 ```text
-frontend/
-├── e2e/
-├── public/
-├── src/
-│   ├── api/
-│   ├── components/
-│   ├── pages/
-│   ├── store/
-│   ├── styles/
-│   └── utils/
-├── index.html
-├── vite.config.js
-└── package.json
+.
+|-- e2e/
+|-- public/
+|-- src/
+|   |-- api/
+|   |-- components/
+|   |-- pages/
+|   |-- store/
+|   |-- styles/
+|   `-- utils/
+|-- index.html
+|-- vite.config.js
+`-- package.json
 ```
 
 ## Documentation
 
-- Architecture: [docs/ARCHITECTURE.md](/Users/hari.akurathi/experiment/family-finance-v3/frontend/docs/ARCHITECTURE.md)
-- Setup: [docs/SETUP.md](/Users/hari.akurathi/experiment/family-finance-v3/frontend/docs/SETUP.md)
+- Architecture: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
+- Setup: [docs/SETUP.md](docs/SETUP.md)
 
 ## Local Start
 
