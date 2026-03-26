@@ -1,0 +1,393 @@
+{
+  "persons": [
+    {
+      "id": "hema",
+      "name": "Hema",
+      "baseSalary": 104030,
+      "hasPanel": true,
+      "color": "#38bdf8"
+    },
+    {
+      "id": "hari",
+      "name": "Hari",
+      "baseSalary": 127374,
+      "hasPanel": true,
+      "color": "#a78bfa"
+    }
+  ],
+  "monthOrder": [
+    "Mar-2026"
+  ],
+  "loans": [
+    {
+      "id": "l1",
+      "name": "HDFC Home Loan 1",
+      "type": "emi",
+      "who": "hema",
+      "total": 2000000,
+      "outstanding": 1400000,
+      "emi": 14100,
+      "rate": 8.5,
+      "start": "2022-01",
+      "end": "2037-01",
+      "notes": "HDFC Bank",
+      "status": "active"
+    },
+    {
+      "id": "l2",
+      "name": "HDFC Home Loan 2",
+      "type": "emi",
+      "who": "hema",
+      "total": 2000000,
+      "outstanding": 1380000,
+      "emi": 14100,
+      "rate": 8.5,
+      "start": "2022-06",
+      "end": "2037-06",
+      "notes": "HDFC Bank",
+      "status": "active"
+    },
+    {
+      "id": "l3",
+      "name": "Laptop EMI",
+      "type": "emi",
+      "who": "hari",
+      "total": 78276,
+      "outstanding": 45661,
+      "emi": 6523,
+      "rate": 0,
+      "start": "2024-01",
+      "end": "2025-12",
+      "notes": "",
+      "status": "active"
+    },
+    {
+      "id": "l4",
+      "name": "ICICI Card 2003",
+      "type": "credit",
+      "who": "hari",
+      "total": 0,
+      "outstanding": 0,
+      "emi": 0,
+      "rate": 36,
+      "start": "",
+      "end": "",
+      "notes": "ICICI Bank",
+      "status": "active"
+    },
+    {
+      "id": "l5",
+      "name": "ICICI Card 1007",
+      "type": "credit",
+      "who": "hari",
+      "total": 0,
+      "outstanding": 0,
+      "emi": 0,
+      "rate": 36,
+      "start": "",
+      "end": "",
+      "notes": "ICICI Bank",
+      "status": "active"
+    },
+    {
+      "id": "l6",
+      "name": "Axis Card 9123",
+      "type": "credit",
+      "who": "hari",
+      "total": 0,
+      "outstanding": 0,
+      "emi": 0,
+      "rate": 36,
+      "start": "",
+      "end": "",
+      "notes": "Axis Bank",
+      "status": "active"
+    },
+    {
+      "id": "l7",
+      "name": "SBI Card 2468",
+      "type": "credit",
+      "who": "hari",
+      "total": 0,
+      "outstanding": 0,
+      "emi": 0,
+      "rate": 36,
+      "start": "",
+      "end": "",
+      "notes": "SBI Card",
+      "status": "active"
+    },
+    {
+      "id": "l8",
+      "name": "One Card",
+      "type": "credit",
+      "who": "hari",
+      "total": 0,
+      "outstanding": 0,
+      "emi": 0,
+      "rate": 36,
+      "start": "",
+      "end": "",
+      "notes": "OneCard",
+      "status": "active"
+    },
+    {
+      "id": "l9",
+      "name": "Durga Prasad 2L",
+      "type": "personal",
+      "who": "joint",
+      "total": 200000,
+      "outstanding": 200000,
+      "emi": 4000,
+      "rate": 0,
+      "start": "",
+      "end": "",
+      "notes": "Interest ₹4000/month",
+      "status": "active"
+    },
+    {
+      "id": "l10",
+      "name": "Given to Aditya",
+      "type": "given",
+      "who": "joint",
+      "total": 10000,
+      "outstanding": 10000,
+      "emi": 1800,
+      "rate": 0,
+      "start": "",
+      "end": "",
+      "notes": "Mobile EMI recovery",
+      "status": "active"
+    },
+    {
+      "id": "l11",
+      "name": "Given to Venkata Rao",
+      "type": "given",
+      "who": "joint",
+      "total": 150000,
+      "outstanding": 150000,
+      "emi": 0,
+      "rate": 0,
+      "start": "",
+      "end": "",
+      "notes": "Tulluru, from savings",
+      "status": "active"
+    }
+  ],
+  "investments": [
+    {
+      "id": "i1",
+      "name": "Gold - Hema Batch 1",
+      "type": "gold",
+      "owner": "hema",
+      "invested": 200737,
+      "current": 423500,
+      "qty": 26.5,
+      "rate": 16000,
+      "start": "",
+      "end": "",
+      "notes": "Nalla pusalu, neckless",
+      "status": "active"
+    },
+    {
+      "id": "i2",
+      "name": "Gold - Hema Batch 2",
+      "type": "gold",
+      "owner": "hema",
+      "invested": 209204,
+      "current": 480800,
+      "qty": 30.05,
+      "rate": 16000,
+      "start": "",
+      "end": "",
+      "notes": "",
+      "status": "active"
+    },
+    {
+      "id": "i3",
+      "name": "Gold - Hari Batch 1",
+      "type": "gold",
+      "owner": "hari",
+      "invested": 67079,
+      "current": 161440,
+      "qty": 10.09,
+      "rate": 16000,
+      "start": "",
+      "end": "",
+      "notes": "3 rings, 1 chain",
+      "status": "active"
+    },
+    {
+      "id": "i4",
+      "name": "Gold - Hari Batch 2",
+      "type": "gold",
+      "owner": "hari",
+      "invested": 46800,
+      "current": 96000,
+      "qty": 6,
+      "rate": 16000,
+      "start": "",
+      "end": "",
+      "notes": "",
+      "status": "active"
+    },
+    {
+      "id": "i5",
+      "name": "Gold - Mixed (Hari+Hema)",
+      "type": "gold",
+      "owner": "joint",
+      "invested": 101325,
+      "current": 168000,
+      "qty": 10.5,
+      "rate": 16000,
+      "start": "",
+      "end": "",
+      "notes": "7.5g Hari, 3g Hema",
+      "status": "active"
+    },
+    {
+      "id": "i6",
+      "name": "Gold - Hema Batch 3",
+      "type": "gold",
+      "owner": "hema",
+      "invested": 301583,
+      "current": 386544,
+      "qty": 24.159,
+      "rate": 16000,
+      "start": "",
+      "end": "",
+      "notes": "",
+      "status": "active"
+    },
+    {
+      "id": "i7",
+      "name": "Hema Grow Account",
+      "type": "fd",
+      "owner": "hema",
+      "invested": 50000,
+      "current": 50000,
+      "qty": 0,
+      "rate": 0,
+      "start": "",
+      "end": "",
+      "notes": "Savings amount",
+      "status": "active"
+    },
+    {
+      "id": "i8",
+      "name": "SBI FD - Mahanvi",
+      "type": "fd",
+      "owner": "mahanvi",
+      "invested": 1000,
+      "current": 1000,
+      "qty": 0,
+      "rate": 0,
+      "start": "",
+      "end": "",
+      "notes": "",
+      "status": "active"
+    }
+  ],
+  "insurance": [
+    {
+      "id": "p1",
+      "name": "LIC - Pinni (Endowment 914)",
+      "type": "life",
+      "who": "hema",
+      "policyNo": "668480023",
+      "premium": 4363,
+      "freq": "half-yearly",
+      "start": "2022-09",
+      "end": "2038-09",
+      "nextDue": "2025-12-08",
+      "cover": 0,
+      "notes": "ID: ahk9290@gmail.com | DOB: 01/01/1983",
+      "status": "active"
+    },
+    {
+      "id": "p2",
+      "name": "LIC - Hari (Jeevan Anand 915)",
+      "type": "life",
+      "who": "hari",
+      "policyNo": "662467043",
+      "premium": 19065,
+      "freq": "half-yearly",
+      "start": "2022-03",
+      "end": "2037-12",
+      "nextDue": "2025-12-24",
+      "cover": 0,
+      "notes": "ID: 9290573910 | DOB: 25/06/1992",
+      "status": "active"
+    },
+    {
+      "id": "p3",
+      "name": "LIC - Mahanvi (Jeevan Tarun 934)",
+      "type": "life",
+      "who": "mahanvi",
+      "policyNo": "668480196",
+      "premium": 3700,
+      "freq": "monthly",
+      "start": "2022-12",
+      "end": "2047-12",
+      "nextDue": "",
+      "cover": 0,
+      "notes": "19th of every month",
+      "status": "active"
+    },
+    {
+      "id": "p4",
+      "name": "Star Health - Family Floater",
+      "type": "health",
+      "who": "family",
+      "policyNo": "P/131200/01/2023/011557",
+      "premium": 12788,
+      "freq": "yearly",
+      "start": "2022-10",
+      "end": "",
+      "nextDue": "2025-10-01",
+      "cover": 500000,
+      "notes": "Renew 1st Oct",
+      "status": "active"
+    }
+  ],
+  "months": {
+    "Mar-2026": {
+      "salaries": {
+        "hema": 104030,
+        "hari": 127374
+      },
+      "otherIncome": [
+        {
+          "id": "x1774297288249yq9",
+          "label": "Aditya",
+          "amount": 1800
+        },
+        {
+          "id": "x1774297294657seo",
+          "label": "2L interest",
+          "amount": 4000
+        }
+      ],
+      "expenses": {
+        "hema": [
+          {
+            "id": "x1774297320392vtn",
+            "label": "Rent",
+            "amount": 16000,
+            "status": "pending",
+            "notes": ""
+          }
+        ],
+        "hari": [
+          {
+            "id": "x1774297332984au4",
+            "label": "Laptop EMI",
+            "amount": 6500,
+            "status": "pending",
+            "notes": ""
+          }
+        ]
+      }
+    }
+  }
+}

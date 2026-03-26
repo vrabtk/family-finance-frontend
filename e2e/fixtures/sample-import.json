@@ -1,0 +1,107 @@
+{
+  "persons": [
+    {
+      "id": "hema",
+      "name": "Hema",
+      "baseSalary": 104030,
+      "hasPanel": true,
+      "color": "#38bdf8"
+    },
+    {
+      "id": "hari",
+      "name": "Hari",
+      "baseSalary": 127374,
+      "hasPanel": true,
+      "color": "#a78bfa"
+    }
+  ],
+  "monthOrder": [
+    "Mar-2026"
+  ],
+  "loans": [
+    {
+      "id": "loan-1",
+      "name": "Home Loan",
+      "type": "emi",
+      "who": "hema",
+      "total": 2000000,
+      "outstanding": 1400000,
+      "emi": 14100,
+      "rate": 8.5,
+      "start": "2022-01",
+      "end": "2037-01",
+      "notes": "HDFC Bank",
+      "status": "active"
+    }
+  ],
+  "investments": [
+    {
+      "id": "inv-1",
+      "name": "Family Gold",
+      "type": "gold",
+      "owner": "hema",
+      "invested": 200737,
+      "current": 423500,
+      "qty": 26.5,
+      "rate": 16000,
+      "start": "",
+      "end": "",
+      "notes": "Nalla pusalu, necklace",
+      "status": "active"
+    }
+  ],
+  "insurance": [
+    {
+      "id": "pol-1",
+      "name": "Star Health Family Floater",
+      "type": "health",
+      "who": "family",
+      "policyNo": "P/131200/01/2023/011557",
+      "premium": 12788,
+      "freq": "yearly",
+      "start": "2022-10",
+      "end": "",
+      "nextDue": "2025-10-01",
+      "cover": 500000,
+      "notes": "Renew 1st Oct",
+      "status": "active"
+    }
+  ],
+  "months": {
+    "Mar-2026": {
+      "salaries": {
+        "hema": 104030,
+        "hari": 127374
+      },
+      "otherIncome": [
+        {
+          "id": "inc-1",
+          "label": "Aditya",
+          "amount": 1800
+        }
+      ],
+      "expenses": {
+        "hema": [
+          {
+            "id": "exp-1",
+            "label": "Rent",
+            "amount": 16000,
+            "status": "pending",
+            "notes": "",
+            "category": "Housing"
+          }
+        ],
+        "hari": [
+          {
+            "id": "exp-2",
+            "label": "Laptop EMI",
+            "amount": 6500,
+            "status": "done",
+            "notes": "",
+            "category": "EMI"
+          }
+        ]
+      }
+    }
+  }
+}
